@@ -1,4 +1,4 @@
-k# Findings and Observations
+# Findings and Observations
 
 
 
@@ -67,3 +67,41 @@ During setup, the following issues were encountered and resolved:
 - Wazuh agent initially failed because the manager IP was not configured correctly
 
 - GitHub HTTPS push failed with 403 and was 
+---
+
+## Confirmed Wazuh Functionality
+
+The following functionality has been confirmed:
+
+- Dashboard login
+- API connection
+- Agent connection
+- Basic event visibility
+- Security Configuration Assessment alerts appearing in Events
+
+---
+
+## Areas Not Yet Fully Confirmed
+
+The following areas are planned for testing but should not yet be considered complete:
+
+- File Integrity Monitoring alerts
+- Malware detection
+- Vulnerability detection
+- MITRE ATT&CK mapping
+- Custom monitors
+- Anomaly detection
+- Hardening improvements
+- SCA score improvement
+
+---
+
+## Next Steps
+
+- Verify File Integrity Monitoring
+- Investigate SCA failed checks
+- Document current SCA score
+- Create a hardening plan
+- Apply fixes one by one
+- Track score changes after each fix
+- Document vulnerabilities and remediation steps

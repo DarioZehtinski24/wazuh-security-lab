@@ -120,4 +120,13 @@ Configured correct manager address and restarted agent.
 
 
 
-## 
+## GitHub Push Permission Error
+
+### Problem
+Git push returned HTTP 403.
+
+### Cause
+HTTPS authentication/token issues.
+
+### Fix
+Configured SSH authentication with GitHub and switched repository remote URL to SSH.
