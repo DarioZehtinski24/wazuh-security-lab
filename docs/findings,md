@@ -1,0 +1,69 @@
+k# Findings and Observations
+
+
+
+## Current Lab Status
+
+
+
+The Wazuh single-node Docker deployment is running successfully.
+
+
+
+Confirmed components:
+
+
+
+- Wazuh Dashboard is accessible from the host machine
+
+- Wazuh API connection is online
+
+- One Ubuntu Server agent is connected and active
+
+
+
+---
+
+
+
+## Environment
+
+
+
+- Ubuntu Server VM
+
+- VMware Workstation
+
+- Docker-based Wazuh deployment
+
+- Bridged networking
+
+- GitHub repository created for documentation
+
+
+
+---
+
+
+
+## Confirmed Issues Encountered
+
+
+
+During setup, the following issues were encountered and resolved:
+
+
+
+- NAT networking prevented access from the host machine
+
+- Bridged networking initially failed because VMware was using the wrong adapter
+
+- VM disk space was insufficient and had to be expanded
+
+- Docker Compose was missing and had to be installed
+
+- Wazuh API initially appeared offline until services finished starting
+
+- Wazuh agent initially failed because the manager IP was not configured correctly
+
+- GitHub HTTPS push failed with 403 and was 
