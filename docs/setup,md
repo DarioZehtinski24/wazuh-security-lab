@@ -24,13 +24,15 @@
 
 
 
-1. Installed Ubuntu Server in VMware.
+1. Installed Ubuntu Server in VMware
 
-2. Configured network adapter as Bridged.
+2. Configured network adapter as Bridged
 
-3. Installed Docker and Docker Compose.
+3. Installed Docker and Docker Compose
 
-4. Set required kernel parameter:
+
+
+### Set Required Kernel Parameter
 
 
 
@@ -46,7 +48,7 @@ sudo sysctl --system
 
 
 
-5. Cloned Wazuh Docker repository:
+### Clone Wazuh Docker Repository
 
 
 
@@ -60,7 +62,7 @@ cd wazuh-docker/single-node
 
 
 
-6. Generated certificates:
+### Generate Certificates
 
 
 
@@ -72,7 +74,7 @@ docker-compose -f generate-indexer-certs.yml run --rm generator
 
 
 
-7. Started Wazuh:
+### Start Wazuh
 
 
 
@@ -84,6 +86,10 @@ docker-compose up -d
 
 
 
-8. Installed and connected Wazuh agent.
+## Verification
 
-9. Verified the agent appeared as active in the Wazuh dashboard.
+
+
+- Installed and connected Wazuh agent
+
+- Verified the agent appeared as active in the Wazuh dashboard
