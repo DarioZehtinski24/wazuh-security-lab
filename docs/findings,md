@@ -10,7 +10,7 @@ The Wazuh single-node Docker deployment is running successfully.
 
 
 
-Confirmed components:
+### Confirmed Components
 
 
 
@@ -66,7 +66,8 @@ During setup, the following issues were encountered and resolved:
 
 - Wazuh agent initially failed because the manager IP was not configured correctly
 
-- GitHub HTTPS push failed with 403 and was 
+- GitHub HTTPS push failed with 403 permi
+
 ---
 
 ## Confirmed Wazuh Functionality
