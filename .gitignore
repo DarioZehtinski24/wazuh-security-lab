@@ -1,0 +1,37 @@
+# Logs
+
+*.log
+
+
+
+# Temporary files
+
+*.tmp
+
+*.swp
+
+
+
+# OS files
+
+.DS_Store
+
+Thumbs.db
+
+
+
+# Sensitive files
+
+.env
+
+*.pem
+
+*.key
+
+
+
+# Wazuh/Docker runtime data
+
+data/
+
+volumes/
