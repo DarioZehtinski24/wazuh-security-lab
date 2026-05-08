@@ -1,18 +1,10 @@
 # Findings and Observations
 
-
-
 ## Current Lab Status
-
-
 
 The Wazuh single-node Docker deployment is running successfully.
 
-
-
 ### Confirmed Components
-
-
 
 - Wazuh Dashboard is accessible from the host machine
 
@@ -20,15 +12,9 @@ The Wazuh single-node Docker deployment is running successfully.
 
 - One Ubuntu Server agent is connected and active
 
-
-
 ---
 
-
-
 ## Environment
-
-
 
 - Ubuntu Server VM
 
@@ -40,19 +26,11 @@ The Wazuh single-node Docker deployment is running successfully.
 
 - GitHub repository created for documentation
 
-
-
 ---
-
-
 
 ## Confirmed Issues Encountered
 
-
-
 During setup, the following issues were encountered and resolved:
-
-
 
 - NAT networking prevented access from the host machine
 
